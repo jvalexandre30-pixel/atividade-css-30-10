@@ -1,1 +1,138 @@
 
+* {
+    box-sizing: border-box;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #000000;
+        }
+
+        /* Cabeçalho */
+        #header {
+            background-color: #912222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Menu lateral */
+        #menu {
+            width: 220px;
+            background-color: #000000;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            padding-top: 20px;
+        }
+
+        #menu h2 {
+            color: white;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        #menu a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            transition: 0.3s;
+        }
+
+        #menu a:hover {
+            background-color: #912222;
+        }
+
+        /* Conteúdo principal */
+        #conteudo {
+            margin-left: 220px;
+        }
+
+        #main {
+            padding: 25px;
+        }
+        
+        
+        .tela {
+    display: none;
+}
+
+.tela:target {
+    display: block;
+}
+
+body:not(:has(.tela:target)) #inicio {
+    display: block;
+}
+
+        .tela:target {
+            display: block;
+        }
+
+        #inicio {
+            display: block;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px #ccc;
+        }
+
+        .card h3 {
+            color: #000000;
+        }
+
+        /* Rodapé */
+        #footer {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+        /* Adaptação para celulares */
+        @media (max-width: 600px) {
+            #menu {
+                width: 140px;
+            }
+
+            #conteudo {
+                margin-left: 140px;
+            }
+
+            #menu a {
+                padding: 12px 10px;
+                font-size: 14px;
+            }
+
+            #main {
+                padding: 12px;
+            }
+        }
+         input, textarea {
+            width: 100%;
+            max-width: 450px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #6a0dad;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+   button:hover {
+    background-color: #4b087c;
+}
