@@ -85,4 +85,4 @@ Ainda há muito para aprender e melhorar, mas este é mais um passo na minha jor
 
 ---
 
-**Desenvolvido com dedicação e aprendizado usando HTML5 e CSS3. ❤️**
+**Desenvolvido com dedicação e aprendizado usando HTML5 e CSS. ❤️**
